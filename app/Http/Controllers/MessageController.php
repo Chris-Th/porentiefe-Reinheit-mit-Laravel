@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class MessageController extends Controller
 {
-    //
+    public function showAll() {
+        return view('laravelPowerPearls');
+    }
 }
 
-public function showAll() {
-    return view('laravelPowerPearls');
-}
+
